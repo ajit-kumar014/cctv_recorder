@@ -24,6 +24,6 @@ while true; do
     fi
     
     # Cleanup old recordings
-    find "$SAVE_DIR" -type f -name "*.mkv" -mtime +$DAYS_TO_KEEP -delete
+    find "$SAVE_DIR" -type f -name "*.mkv" -mtime $DAYS_TO_KEEP -delete
     
 done

@@ -21,9 +21,5 @@ while true; do
     else
         echo "$(date): Stream not available, retrying in 60s..."
         sleep 60
-    fi
-    
-    # Cleanup old recordings
-    find "$SAVE_DIR" -type f -name "*.mkv" -mtime $DAYS_TO_KEEP -delete
-    
+    fi    
 done

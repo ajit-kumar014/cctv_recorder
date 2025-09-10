@@ -34,4 +34,7 @@
 -  For Cam URL you can visit the respective camera website or documentation if TP-LINK camera [Link](https://www.tp-link.com/us/support/faq/2680/)
 -  Days to keep for how many day's data you want to store.(Take this seriously and also keep in mind your available disk space and set accordingly).
 -  For testing the URL you can use VLC media player for testing the url stream.
+-  For clean up just use the script `clean.sh`
+-  After that add that to crontab and specify the time.
+
 
